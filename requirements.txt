@@ -1,0 +1,4 @@
+numpy>=1.19.0          # 用于数值计算（两个脚本均需）
+pandas>=1.1.0          # 用于数据处理与CSV读写（仅ceg_output.py需）
+matplotlib>=3.3.0      # 用于结果可视化绘图（仅ceg_output.py需）
+ruptures>=1.1.6        # 用于突变点（changepoint）分析（仅ceg_output.py需）
