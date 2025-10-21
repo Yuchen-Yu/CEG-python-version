@@ -106,6 +106,15 @@ python ceg_output.py <输入文件> [--output_prefix <输出前缀>] [--plot] [-
    ```bash
    python ceg_p.py -no_nodes 36 -matrix_file ms1.txt -no_connections 220 -connections_file link.txt -no_affect_nodes 4 -extinction_inc 1 -high_diversity 251 -target_nodes 0 1 2 3 -sims 100 -output_file result.txt -CPU 1
    ```
+
+## 引用
+
+如果使用本程序，请引用原始论文和软件：
+
+```
+Roopnarine, P.D. (2006). Extinction cascading and catastrophe in ancient
+food webs. Paleobiology, 32(1), 1-19.
+```
 2. 处理结果并绘图：
    ```bash
    python ceg_output.py result.txt --output_prefix ceg_result --plot --segments 200 --bkps 15
