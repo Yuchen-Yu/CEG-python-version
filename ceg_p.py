@@ -714,7 +714,7 @@ class CEGSimulator:
                         if nodes2[count16].size > 0:
                             total_extinct_percent = (no_extinct / nodes2[count16].size) * 100
                         else:
-                            total_extinct_percent = 0.0  # 节点大小为0时的默认值
+                            total_extinct_percent = np.nan  # 节点大小为0时的默认值
 
                         out1.write(f"{nodes2[count16].extinction_level} "
                                    f"{secondary_extinct} "
